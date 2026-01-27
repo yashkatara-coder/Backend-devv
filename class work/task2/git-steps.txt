@@ -1,0 +1,14 @@
+git init
+touch README.md
+git add README.md
+git commit -m "initial commit"
+
+echo "update" >> README.md
+git status
+
+git add README.md
+git restore --staged README.md
+
+git commit --amend -m "fixed commit message"
+
+git revert HEAD

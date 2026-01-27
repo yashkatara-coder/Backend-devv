@@ -1,0 +1,6 @@
+git checkout -b feature-ui
+git add .
+git commit -m "feature ui changes"
+
+Merge conflict occurs when two branches modify the same lines.
+Conflicts must be resolved manually.
